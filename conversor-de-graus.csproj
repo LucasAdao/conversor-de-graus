@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>conversor_de_graus</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="_09faa702-8590-41a8-97aa-00c8e033afbe.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="_09faa702-8590-41a8-97aa-00c8e033afbe.jpeg" />
+  </ItemGroup>
+
+</Project>

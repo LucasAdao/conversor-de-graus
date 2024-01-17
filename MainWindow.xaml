@@ -1,0 +1,26 @@
+﻿<Window x:Class="conversor_de_graus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:conversor_de_graus"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="584" Margin="500,0,0,0" Stroke="#FFF72A2A" VerticalAlignment="Center" Width="500" Fill="#FFF17171"/>
+        <Label Content="Conversor de Graus" HorizontalAlignment="Left" Margin="95,44,0,0" VerticalAlignment="Top" FontSize="32" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FFB32121"/>
+        <Image HorizontalAlignment="Left" Height="324" Margin="89,122,0,0" VerticalAlignment="Top" Width="301" Source="/_09faa702-8590-41a8-97aa-00c8e033afbe.jpeg"/>
+        <Label Content="Celsius -&gt; Fahrenheit " HorizontalAlignment="Left" Margin="637,34,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FF040404" RenderTransformOrigin="0.774,0.485"/>
+        <Label Content="Celsius:" HorizontalAlignment="Left" Margin="555,102,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FF040404" RenderTransformOrigin="0.774,0.485"/>
+        <TextBox x:Name="textBoxCelsiusToFahrenheit" HorizontalAlignment="Left" Margin="656,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Height="38" BorderThickness="0,0,0,5" BorderBrush="#FFF32B2B" FontSize="24" FontFamily="Trebuchet MS" Background="White"/>
+        <TextBox x:Name="textBoxResultado1" HorizontalAlignment="Left" Margin="532,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="435" Height="35" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="24" FontFamily="Trebuchet MS" Background="{x:Null}" Text="O resultado é:" FontWeight="Bold"/>
+        <Label Content="Celsius -&gt; Kelvin" HorizontalAlignment="Left" Margin="639,261,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FF040404" RenderTransformOrigin="0.774,0.485"/>
+        <Label Content="Celsius:" HorizontalAlignment="Left" Margin="555,323,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FF040404" RenderTransformOrigin="0.774,0.485"/>
+        <TextBox x:Name="textBoxCelsiusToKelvin" HorizontalAlignment="Left" Margin="656,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Height="38" BorderThickness="0,0,0,5" BorderBrush="#FFF32B2B" FontSize="24" FontFamily="Trebuchet MS" Background="White"/>
+        <TextBox x:Name="textBoxResultado2" HorizontalAlignment="Left" Margin="530,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="435" Height="35" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="24" FontFamily="Trebuchet MS" Background="{x:Null}" Text="O resultado é:" FontWeight="Bold"/>
+        <Button x:Name="botaoDaPrimeiraOperacao" Content="Calcular" HorizontalAlignment="Left" Margin="704,192,0,0" VerticalAlignment="Top" Height="45" Width="126" Background="White" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" BorderBrush="#FFF52424" BorderThickness="2,2,2,2" Click="botaoDaPrimeiraOperacao_Click"/>
+        <Button x:Name="botaoDaSegundaOperacao" Content="Calcular" HorizontalAlignment="Left" Margin="704,418,0,0" VerticalAlignment="Top" Height="45" Width="126" Background="White" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" BorderBrush="#FFF52424" BorderThickness="2,2,2,2" Click="botaoDaSegundaOperacao_Click"/>
+
+
+    </Grid>
+</Window>
